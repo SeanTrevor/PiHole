@@ -12,6 +12,7 @@ services:
     ports:
       - "53:53/tcp"
       - "53:53/udp"
+      - 8080:80
     volumes:
       - /volume2/docker/PiHole/pihole/etc-pihole:/etc/pihole
       - /volume2/docker/PiHole/pihole/etc-dnsmasq:/etc/dnsmasq.d
